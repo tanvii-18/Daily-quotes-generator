@@ -1,0 +1,94 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-image: url('C:\Users\admin\OneDrive\Desktop\quotes\bg.png');
+}
+
+.main
+{
+    height: 400px;
+    width: 50%;
+    /* background-color: cornflowerblue; */
+    margin: 7% auto;
+    text-align: center;
+    padding-top: 40px;
+    border-radius: 10px;
+}
+
+.main h2
+{
+    font-size: 30px;
+    font-family: "Rochester", cursive;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 10%;
+    color: white;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+    border-bottom-style: dotted;
+} 
+
+.quote
+{
+    width: 70%;
+    margin: auto;
+    padding: 30px;
+    color: white;
+    margin-top: 30px;
+    font-family: "MonteCarlo", cursive;
+    font-weight: 400;
+    font-style: normal;  
+}
+
+.author
+{
+    display: flex;
+    justify-content: end;
+    width: 80%;
+    margin: auto;
+    color: white;
+}
+
+.buttons
+{
+    display: inline-flex;
+    margin: 30px;
+}
+
+#icon
+{
+    padding-right: 20px;
+    padding-top: 5px;
+}
+
+button
+{
+    height: 35px;
+    width: 100px;
+    /* background-color: floralwhite; */
+    border-radius: 10px;
+    border: 0px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    color: black;
+    transition: 0.2s;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+
+button:hover
+{
+   border: 1px solid white;
+}
